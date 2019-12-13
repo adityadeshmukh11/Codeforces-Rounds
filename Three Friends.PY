@@ -1,10 +1,8 @@
 t= int(input())
 l=[]
 solution=[]
-b=0
 def abc(a,b,c):
     p=[]
-    x,y,z=0,0,0
     total=a+b+c
     mi=min(a,b,c)
     mx=max(a,b,c)
@@ -41,7 +39,6 @@ def abc(a,b,c):
         else:
             return(final3)
 for z in range(t):
-    #l=[]
     l=list(map(int, input().split()))
     a,b,c=l[0],l[1],l[2]
     final1,final2,final3=0,0,0
